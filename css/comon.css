@@ -1,0 +1,39 @@
+:root {
+  --text-color: rgb(117, 117, 117, 1);
+  --white-color: rgb(255, 255, 255, 1);
+  --hover-allblue: rgb(33, 150, 243, 1);
+  --teg-h-navigation: rgb(33, 33, 33, 1);
+  --background-black: rgb(47, 48, 58, 1);
+  --logo-black: rgb(0, 0, 0, 1);
+  --footer-link: rgb(255, 255, 255, 0, 6);
+  --ourteam-background: rgb(245, 244, 250, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.site-page {
+  background-color: var(--white-color);
+  font-family: Roboto;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.footer {
+  background-color: var(--background-black);
+}
+
+.site-item {
+  font-weight: 500;
+}

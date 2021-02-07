@@ -1,0 +1,111 @@
+:root {
+  --text-color: rgb(117, 117, 117, 1);
+  --white-color: rgb(255, 255, 255, 1);
+  --hover-allblue: rgb(33, 150, 243, 1);
+  --teg-h-navigation: rgb(33, 33, 33, 1);
+  --background-black: rgb(47, 48, 58, 1);
+  --logo-black: rgb(0, 0, 0, 1);
+  --footer-link: rgb(255, 255, 255, 0, 6);
+  --ourteam-background: rgb(245, 244, 250, 1);
+}
+
+.site-item {
+  font-weight: 500;
+}
+
+.logo {
+  font-family: Raleway;
+  color: var(--logo-black);
+  font-weight: 700;
+}
+
+.logo-part {
+  color: var(--hover-allblue);
+}
+
+.site-navigation .link.current {
+  color: var(--hover-allblue);
+}
+
+.link {
+  color: var(--teg-h-navigation);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--hover-allblue);
+}
+
+.site-contacts {
+  color: var(--text-color);
+}
+
+.site-contacts:hover,
+.site-contacts:focus {
+  color: var(--hover-allblue);
+}
+
+.product {
+  background-color: var(--background-black);
+  color: var(--white-color);
+}
+
+.product-item {
+  font-weight: 900;
+}
+
+.product-link {
+  background-color: var(--hover-allblue);
+  color: var(--white-color);
+  font-weight: 700;
+}
+
+.skills-item {
+  background-color: var(--white-color);
+}
+
+.skills-title {
+  color: var(--teg-h-navigation);
+  font-weight: 700;
+}
+
+.skills-text {
+  color: var(--text-color);
+}
+
+.work-section {
+  background-color: ;
+}
+
+.team {
+  background-color: var(--ourteam-background);
+}
+
+.team-title {
+  font-weight: 700;
+  color: var(--teg-h-navigation);
+}
+
+.team-names {
+  font-weight: 500;
+  color: var(--teg-h-navigation);
+}
+
+.team-names,
+.team-professions {
+  background-color: var(--white-color);
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  color: var(--white-color);
+}
+
+.footer-adress {
+  color: var(--white-color);
+}
+
+.footer-link {
+  color: var(--footer-link);
+}
