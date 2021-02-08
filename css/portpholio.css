@@ -1,75 +1,26 @@
-:root {
-  --text-color: rgb(117, 117, 117, 1);
-  --white-color: rgb(255, 255, 255, 1);
-  --hover-allblue: rgb(33, 150, 243, 1);
-  --teg-h-navigation: rgb(33, 33, 33, 1);
-  --background-black: rgb(47, 48, 58, 1);
-  --logo-black: rgb(0, 0, 0, 1);
-  --footer-link: rgb(255, 255, 255, 0, 6);
-  --ourteam-background: rgb(245, 244, 250, 1);
-}
-
-.site-item {
-  font-weight: 500;
-}
-
-.logo {
-  font-family: Raleway;
-  color: var(--logo-black);
-  font-weight: 700;
-}
-
-.logo-part {
-  color: var(--hover-allblue);
-}
-
-.site-navigation .link.current {
-  color: var(--hover-allblue);
-}
-
-.link {
-  color: var(--teg-h-navigation);
-}
-
-.link:hover,
-.link:focus {
-  color: var(--hover-allblue);
-}
-
-.site-contacts {
-  color: var(--text-color);
-}
-
-.site-contacts:hover,
-.site-contacts:focus {
-  color: var(--hover-allblue);
-}
-
 .button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--teg-h-navigation);
+  background-color: var(--ourteam-background);
   border: none;
 }
 
 .button-item:hover,
 .button-item:focus {
-  background-color: var(--hover-allblue);
   color: var(--white-color);
+  background-color: var(--hover-allblue);
 }
 
 .projects-item {
   font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
   color: var(--teg-h-navigation);
 }
 
-.logo-footer {
-  font-family: Raleway;
-  font-weight: 700;
-  color: var(--white-color);
-}
-
-.footer-adress {
-  color: var(--white-color);
-}
-
-.footer-link {
-  color: var(--footer-link);
+.projects-list {
+  font-size: 16px;
+  line-height: 30px;
 }
