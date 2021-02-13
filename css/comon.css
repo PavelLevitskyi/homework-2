@@ -39,12 +39,26 @@ img {
   margin: -1px;
 }
 
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 /* header */
 
 .site-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+}
+
+.header-nav {
+  display: flex;
+  margin: 0 0;
 }
 
 .logo {
@@ -57,6 +71,19 @@ img {
 
 .logo-part {
   color: var(--hover-allblue);
+}
+
+.site-navigation {
+  display: flex;
+  margin: 0 0;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-nav li:not(:last child) {
+  margin-right: 50px;
 }
 
 .site-navigation .link.current {
